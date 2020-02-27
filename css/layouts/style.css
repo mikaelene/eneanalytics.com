@@ -115,8 +115,7 @@ a.pure-button-primary {
 
 .home-menu {
     padding: 0.5em;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    text-align: left;
 }
 .home-menu {
     background: #27365f;
@@ -139,7 +138,7 @@ a.pure-button-primary {
 }
 
 .home-menu a {
-    color: #a5b3c7;
+    color: white;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
@@ -147,7 +146,10 @@ a.pure-button-primary {
     border: none;
     color: #5e9091;
 }
-
+.pure-menu-children{
+    color: #5e9091;
+    background: none;
+}
 
 /*
  * -- SPLASH STYLES --
